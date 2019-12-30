@@ -1,0 +1,223 @@
+@import "_libs";
+@import "_vars";
+@import "_fonts";
+@import "_global";
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 708px;
+    height: 58px;
+    align-items: center;
+    margin-top: 25px;
+    &__menu { 
+    }
+    &__list {
+        display: flex;
+    }
+    &__link {
+        color: black;
+        margin-left: 35px;
+        font-family: $main-font;
+        font-size: 18px;
+    }
+}
+
+.product {
+    position: relative;
+    max-width: 708px;
+    &__title {
+    }
+    h1 {
+        margin-left: 12.7%;
+        line-height: 60px;
+        font-size: 60px;
+        margin-right: 25%;
+        font-weight: 400;
+        margin-bottom: 33px;
+    }
+    &__slogan {
+        margin-left: 12.7%;
+        text-transform: uppercase;
+        margin-bottom: 17px;
+    }
+    a {
+        position: absolute;
+        left: 90px;
+        top: 223px;
+        padding: 10px 29px 13px 25px;
+        background-color: $bg__green;
+        color: white;
+        text-transform: uppercase;
+    }
+    img {}
+}
+
+.promotional {
+    max-width: 708px;
+    &__block {
+        position: relative; 
+        background-color: $bg__promotional;
+        display: flex;
+        margin-bottom: 30px;
+        height: 372px;
+        align-items: center;
+    }
+    &__left-side {
+        max-width: 371px;
+        padding-left: 52px;
+        padding-right: 10px;
+    }
+    &__title {
+        font-size: 36px;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+    }
+    &__circle {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: $bg__green;
+        z-index: 4;
+    }
+    &__circle1 {
+        position: absolute;
+        top: 92px;
+        right: 62px;
+    }
+    &__circle2 {
+        position: absolute;
+        top: 91px;
+        right: 50px;
+    }
+    &__img {
+        width: 270px;
+        padding-right: 28px;
+    }
+    img {
+        position: absolute;
+        z-index: 5;
+    }
+    &__img-position1 {
+        top: 80px;
+        right: 92px;
+    }
+    &__img-position2 {
+        top: 135px;
+        right: 28px;
+    }
+}
+
+.descriptions {
+    position: relative;
+    margin-left: 30px;
+    max-width: 634px;
+    &__title {
+        margin-bottom: 73px;
+        margin-left: 12.7%;
+        margin-right: 25%;
+    }
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__item {
+        z-index: 5;
+        width: 245px;
+    }
+    &__bg-green {
+        z-index: 5;
+        width: 80px;
+        height: 80px;
+        background-color: $bg__green;
+        margin-bottom: 34px;
+    }
+    &__img {
+        margin: 15px;
+    }
+    &__text {
+        margin-bottom: 130px;
+    }
+    &__bg1 {
+        z-index: 4;
+        position: absolute;
+        left: 119px;
+        top: 25px;
+    }
+    &__bg2 {
+        z-index: 4;
+        position: absolute;
+        right: 4px;
+        top: 25px;
+    }
+    &__bg3 {
+        z-index: 4;
+        position: absolute;
+        left: 119px;
+        top: 339px;
+    }
+    &__bg4 {
+        z-index: 4;
+        position: absolute;
+        right: 4px;
+        top: 339px;
+    }
+}
+
+.case-study {
+    margin-left: 30px;
+    margin-right: 25px;
+    &__flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__size { 
+        width: 364px;
+    }
+    &__block {
+        position: relative;
+        width: 161px;
+        height: 70px;
+        border: #CDCDCD solid 1px;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+    }
+    &__weight {
+        margin: 0 auto;
+        text-transform: uppercase;
+    }
+    &__days {
+        text-transform: uppercase;
+        margin: 0 auto;
+    }
+    .span {
+        position: absolute;
+        bottom: -7px;
+        left: 24px;
+        font-size: 14px;
+        background-color: white;
+        padding: 0 8px;
+    }
+    .span2 {
+        left: 10px;
+    }
+    &__expenses {
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@import "_media";
